@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background: #066acd;
+    background-color: #0d75ec;
 }
 
 .container{
@@ -97,6 +97,55 @@ body{
     width: 40px;
     border-radius: 5px;
 }
+
+#Spring{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#Summer{
+    background-color: orange; /* orange */
+  border: none;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#Fall{
+    background-color: brown; /* brown */
+  border: none;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#Winter{
+    background-color: lightblue; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  font-size: 12px;
+}
+
 
 
 
