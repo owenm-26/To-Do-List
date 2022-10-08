@@ -54,3 +54,85 @@ function deletes(task){
       })
     }
 
+    
+
+    /*function hi() {
+        // ...
+    }
+    */
+
+    //Changes background image
+    const spring = document.getElementById('Spring');
+
+    spring.addEventListener('click', onClick = (e) => {
+        console.log(e)
+        //alert('Spring!')
+        document.body.style.background = "url(https://static.vecteezy.com/system/resources/previews/001/212/839/non_2x/lovely-blue-flower-cartoon-seamless-pattern-vector.jpg)";
+    });
+
+
+    //Changes background image
+    const summer = document.getElementById('Summer');
+
+    summer.addEventListener('click', function onClick(event) {
+
+    document.body.style.background = "url(https://img.freepik.com/premium-vector/seamless-pattern-with-starfish-nautilus-seashells-pearls-marine-animals-vector-illustration-flat-cartoon-style-beige-background-summer-beach-textiles-accessories_172597-1033.jpg)";
+
+    });    
+
+    //Changes background image
+    const fall = document.getElementById('Fall');
+
+    fall.addEventListener('click', function onClick(event) {
+
+      document.body.style.background = "url(https://wallpaperaccess.com/full/1233408.jpg)";
+    
+    });
+    
+    //Changes background image
+    const winter = document.getElementById('Winter');
+
+    winter.addEventListener('click', function onClick(event) {
+
+      document.body.style.background = "url(https://img.freepik.com/premium-vector/cute-penguin-seamless-pattern-background-penguin-welcome-winter-holiday-background_565280-13.jpg)";
+    
+    });
+
+
+
+
+
+
+
+/*
+    function changeBackground(user_choice){
+    document.querySelector('#push').onclick = function(){
+        var user_choice = "Fall"
+        if(userChoice === "Fall"){
+            return "https://static.vecteezy.com/system/resources/previews/001/212/839/non_2x/lovely-blue-flower-cartoon-seamless-pattern-vector.jpg"
+
+        }
+        else{
+            var springBut = document.getElementsByClassName("Spring")[0];
+            var summerBut = document.getElementsByClassName("Summer")[0];
+            var fallBut = document.getElementsByClassName("Fall")[0];
+            var winterBut = document.getElementsByClassName("Winter")[0];
+            if(document.querySelector(springBut).value === True){
+                return "https://static.vecteezy.com/system/resources/previews/001/212/839/non_2x/lovely-blue-flower-cartoon-seamless-pattern-vector.jpg"
+            }
+            
+            elif(document.querySelector(summerBut).value === True);{
+                return "https://cdn.wallpapersafari.com/22/77/360quk.jpg"
+            }
+
+            elif(document.querySelector(fallBut).value === True);{
+                return "https://wallpaperaccess.com/full/1233408.jpg"
+            }
+            elif(document.querySelector(winterBut).value === True);{
+                return "https://img.freepik.com/premium-vector/cute-penguin-seamless-pattern-background-penguin-welcome-winter-holiday-background_565280-13.jpg"
+            }
+
+        }
+}
+}
+*/
